@@ -1,0 +1,55 @@
+:root {
+    --font-family: "Fraunces", sans-serif;
+    --second-family: "Barlow", sans-serif;
+    --third-family: "Fraunces", sans-serif;
+  }
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    margin: 0;
+  }
+  
+  ul,
+  ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: unset;
+    display: inline-block;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Fraunces", serif;
+    background: #fefcf7;
+  }
+  
+  .container {
+    max-width: 1320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
